@@ -1,5 +1,5 @@
 ---
-title: CyberX{Flag}
+title: CyberX{Ch4mp10n}
 date: 2024-12-05T10:54:27.000Z
 tags: [Crypto]
 category: CTF
@@ -207,6 +207,6 @@ There is also some tricky in the last image (the white and black position were s
 
 Finally, run the Code and Voila!
 
-<img width="214" alt="Screenshot 2024-12-22 at 12 11 37 PM" src="https://github.com/user-attachments/assets/cd453074-5627-4683-8971-0bd7623351dc" />
+<img width="800" height="100" alt="Screenshot 2024-12-22 at 12 11 37 PM" src="https://github.com/user-attachments/assets/cd453074-5627-4683-8971-0bd7623351dc" />
 
 ---
