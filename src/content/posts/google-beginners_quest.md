@@ -1,6 +1,6 @@
 ---
 title: Google Beginners Quest
-date: 2024-11-08T10:54:27.000Z
+date: 2024-12-19T00:00:00.000Z
 tags: [Crypto]
 category: CTF
 comments: false
@@ -9,7 +9,7 @@ draft: false
 
 # Crypto Redacted RSA 1
 
-![](https://github.com/Exberg/ctf-writeups/blob/main/google-beginners_quest/img-gbq/img1.png)
+<img src="/images/google_1.png" height="300">
 
 I have a RSA private key, but it is **partially redacted**. Can you recover that? Run `openssl pkeyutl -decrypt -inkey key-recovered.pem -in encrypted.txt -out plaintext.txt` after you have recovered the key.
 
@@ -17,14 +17,14 @@ I have a RSA private key, but it is **partially redacted**. Can you recover that
 
 First, you turn the Pem to Hex using cyberchef.
 
-![](https://github.com/Exberg/ctf-writeups/blob/main/google-beginners_quest/img-gbq/img5.png)
+<img src="/images/google_2.png" height="300">
 
 Basically, only the bottom part of it was redacted.
 So we only need to understand the whole structure:
 
 Structure of PEM in DER
 
-<img width="500" alt="img4" src="https://github.com/Exberg/ctf-writeups/blob/main/google-beginners_quest/img-gbq/img4.png">
+<img src="/images/google_3.png" height="300">
 
 ---
 
@@ -51,7 +51,7 @@ Structure of PEM in DER
 
 ---
 
-![](https://github.com/Exberg/ctf-writeups/blob/main/google-beginners_quest/img-gbq/img3.png)
+<img src="/images/google_4.png" height="300">
 
 The first column means:
 

@@ -1,6 +1,6 @@
 ---
 title: CyberX{Ch4mp10n}
-date: 2024-12-05T10:54:27.000Z
+date: 2024-12-22T00:00:00.000+08:00
 tags: [Crypto]
 category: CTF
 comments: false
@@ -9,9 +9,13 @@ draft: false
 
 # CyberX CTF
 
-Can't believe we won Champion for our first CTF tournament!
+<img src="/images/cyberx-champion.jpg" width="600" height="300">
+    
+- Can't believe we won Champion for our first CTF tournament!
 
-My writeups for the cryptography CTFs.
+- My writeups for the cryptography CTFs.
+
+---
 
 ## Math?
 
