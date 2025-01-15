@@ -9,7 +9,7 @@ draft: false
 
 # Crypto Redacted RSA 1
 
-<img src="/images/google_1.png" height="300">
+<img src="/images/img1.png" width="300">
 
 I have a RSA private key, but it is **partially redacted**. Can you recover that? Run `openssl pkeyutl -decrypt -inkey key-recovered.pem -in encrypted.txt -out plaintext.txt` after you have recovered the key.
 
@@ -17,14 +17,14 @@ I have a RSA private key, but it is **partially redacted**. Can you recover that
 
 First, you turn the Pem to Hex using cyberchef.
 
-<img src="/images/google_2.png" height="300">
+<img src="/images/img5.png" width="800">
 
 Basically, only the bottom part of it was redacted.
 So we only need to understand the whole structure:
 
 Structure of PEM in DER
 
-<img src="/images/google_3.png" height="300">
+<img src="/images/img4.png" width="600">
 
 ---
 
@@ -51,7 +51,7 @@ Structure of PEM in DER
 
 ---
 
-<img src="/images/google_4.png" height="300">
+<img src="/images/img3.png" width="700">
 
 The first column means:
 
@@ -148,7 +148,7 @@ So, for a valid PEM, I need to get `p` or `q` or `d`.
 
 Welp, time to google! I found this [stackexchange forum](https://crypto.stackexchange.com/questions/46486/rsa-given-n-e-dp-is-it-possible-to-find-d) particularly helpful for this.
 
-<img width="925" alt="Screenshot 2024-12-19 at 10 44 21 PM" src="https://github.com/user-attachments/assets/3fc6fe99-eaf6-4636-9e18-0a339ba28553" />
+<img src="/images/397418002-3fc6fe99-eaf6-4636-9e18-0a339ba28553.png" width="625">
 
 ---
 

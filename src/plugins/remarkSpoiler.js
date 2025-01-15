@@ -110,7 +110,7 @@ function spoilerFromMarkdown() {
       hName: 'span',
       hProperties: {
         className: 'spoiler',
-        title: '你知道的太多了',
+        title: 'Pw3nd!',
       },
     }
   }

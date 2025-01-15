@@ -1,7 +1,9 @@
 ---
 title: CyberX{Ch4mp10n}
 date: 2024-12-22T00:00:00.000+08:00
-tags: [Crypto]
+tags:
+  - Crypto
+  - Misc
 category: CTF
 comments: false
 draft: false
@@ -10,7 +12,7 @@ draft: false
 # CyberX CTF
 
 <img src="/images/cyberx-champion.jpg" width="600" height="300">
-    
+
 - Can't believe we won Champion for our first CTF tournament!
 
 - My writeups for the cryptography CTFs.
@@ -31,7 +33,7 @@ c2 = {LARGE_VALUE}
 
 and equations in `png`:
 
-![chal(1)](https://github.com/user-attachments/assets/39ea306a-7e27-4155-9baf-bbd352e8f99b)
+<img src="/images/397964183-39ea306a-7e27-4155-9baf-bbd352e8f99b.png" width="400">
 
 This can actually be solved in 3 lines lol (or even less XD)
 
@@ -63,7 +65,7 @@ For those who are actually curious on `how I solved it?`
 - I think we need to change the math equation into **simpler** and more **efficient**.
 - So, I just follow the reference I found online, and try to modify the equations into more efficient ones.
 
-<img width="1224" alt="Screenshot 2024-12-21 at 1 40 54 AM" src="https://github.com/user-attachments/assets/a16573c7-1c92-4a51-9cfa-873a737a6124" />
+<img src="/images/397966112-a16573c7-1c92-4a51-9cfa-873a737a6124.png" width="1124">
 
 ---
 
@@ -82,7 +84,7 @@ Here's how XOR worked:
 
 When you construct a XOR cipher, you need to enter 2 values: the `key` and the `flag`
 
-<img width="839" alt="Screenshot 2024-12-22 at 11 32 40 AM" src="https://github.com/user-attachments/assets/21fd28ad-d5b2-42c3-aa0c-588cb81cf204" />
+<img src="/images/397962425-21fd28ad-d5b2-42c3-aa0c-588cb81cf204.png" width="800">
 
 ---
 
@@ -92,13 +94,13 @@ We don't know the key, but we know the `flag` starts with `"CyberX{"`
 
 note: `"CyberX{"` consists of **7 letters**, the output will also be **7 letters**.
 
-<img width="706" alt="Screenshot 2024-12-22 at 11 39 00 AM" src="https://github.com/user-attachments/assets/11e795f0-7e94-4bff-9df2-9298746d2453" />
+<img src="/images/397962596-11e795f0-7e94-4bff-9df2-9298746d2453.png" width="800">
 
 ---
 
 So we use the output `"Pokemon"` as the key
 
-<img width="713" alt="Screenshot 2024-12-22 at 11 43 14 AM" src="https://github.com/user-attachments/assets/c578f97a-c8e3-432d-a796-b7d024a441a1" />
+<img src="/images/397962699-c578f97a-c8e3-432d-a796-b7d024a441a1.png" width="800">
 
 Bingo!
 
@@ -110,7 +112,7 @@ This one is a bit tough since I have little knowledge in chess.
 
 We are given a `python code`, and `18 chessmoves images`
 
-<img width="117" alt="Screenshot 2024-12-22 at 11 47 46 AM" src="https://github.com/user-attachments/assets/0f9f1fa6-cc2e-44d9-b732-4f808b8de109" />
+<img src="/images/397962816-0f9f1fa6-cc2e-44d9-b732-4f808b8de109.png" width="100">
 
 ---
 
@@ -193,7 +195,7 @@ encrypted_values = ['?'] # ?????
 
 When you look at the chessmoves images, you will see they can all be solved with just 1 move **checkmate**.
 
-<img width="468" alt="Screenshot 2024-12-22 at 11 59 51 AM" src="https://github.com/user-attachments/assets/b19c1da9-5c98-400a-bc70-08f9bf24a118" />
+<img src="/images/397963235-b19c1da9-5c98-400a-bc70-08f9bf24a118.png" width="500">
 
 ---
 
@@ -205,12 +207,28 @@ encrypted_values = ['g5', 'h2', 'h5', 'd2', 'd1','g3','d7', 'a5', 'e5', 'e3', 'd
 
 There is also some tricky in the last image (the white and black position were swapped):
 
-<img width="468" alt="18" src="https://github.com/user-attachments/assets/b5de1e05-24ef-4026-8d4e-326776d4c489" />
+<img src="/images/397963461-b5de1e05-24ef-4026-8d4e-326776d4c489.png" width="500">
 
 ---
 
 Finally, run the Code and Voila!
 
-<img width="800" height="100" alt="Screenshot 2024-12-22 at 12 11 37 PM" src="https://github.com/user-attachments/assets/cd453074-5627-4683-8971-0bd7623351dc" />
+<img src="/images/flag.png" width="800" height="50">
 
 ---
+
+## APT APT APT APT
+
+This challenge is actually very easy but just annoying.
+
+<img src="/images/APTAPTAPT.png" width="600">
+
+First, it looks like a cipher. So, I just went to decode.fr to search for music related cipher:
+
+<img src="/images/musicsheetcipher.png" width="500">
+
+I ciphered everything just in case lol (pain)
+
+---
+
+## Simon & Bob
