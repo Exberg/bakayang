@@ -1,5 +1,5 @@
 ---
-title: Bakayang's CTF
+title: BAKAYANG{CTF}
 date: 2025-01-25T00:00:00.000Z
 tags: [Crypto]
 category: BAKAYANG
