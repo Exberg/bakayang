@@ -1,5 +1,5 @@
 ---
-title: x3ctf|MVM{F1r5t_iNt3rN4ti0n4L_CtF}
+title: X3CTF/MVM{F1r5t_iNt3rN4ti0n4L_CtF}
 date: 2025-01-26T00:00:00.000Z
 tags: [Crypto, OSINT]
 category: CTF
