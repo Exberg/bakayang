@@ -26,12 +26,12 @@ Desc: I've just built an RNG algorithm from scratch. Can you break it?
 
 **TL;DR**
 
-- **Linear System Setup**: Modeled each sample as a linear equation involving the RNG's matrix entries and states.
+- **Linear Functions**: Modeled each sample as a linear equation involving the RNG's matrix entries and states.
 - **State Propagation**: Tracked deterministic state updates via exponentiation in `GF(p)` to compute all required states.
 - **Matrix Recovery**: Solved the system using SageMath to reverse-engineer the matrix from the samples.
 - **Seed Extraction**: Converted matrix entries to 3-byte chunks (big-endian) to reconstruct the seed.
 
-**Final Flag**: ||MVM{Man_7h3_M4trix_0v3r_Th3_R1n9s}||
+**Final Flag**: ||MVM{l1n34r_fuNcT10n5_4r3_my_f4v}||
 
 **Code**
 
