@@ -42,3 +42,16 @@ html.gray {
 * {
   scrollbar-width: thin;
 }
+
+/* Add word-breaking for long titles */
+h1,
+h2,
+h3,
+h4,
+.post-title,
+[class*='title'] {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+}
