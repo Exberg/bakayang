@@ -43,7 +43,7 @@ html.gray {
   scrollbar-width: thin;
 }
 
-/* Add word-breaking for long titles */
+/* Fix Horizontal Overflow for Headers */
 h1,
 h2,
 h3,
